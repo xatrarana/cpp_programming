@@ -26,7 +26,7 @@ class C:public A, public B {
 int main()
 {
     C obj;
-    obj.show();               //this cause an runtime eror beacuse the obj.show() is amibigus
+   // obj.show();               //this cause an runtime eror beacuse the obj.show() is amibigus
 
     // obj.A::show()  this is the actual way of invoking the method
 }
